@@ -1,0 +1,16 @@
+<!-- pages/formSubmit/formSubmit.wxml -->
+<view class="container">
+  <form bindsubmit="formSubmit">
+    <view class="form-item">
+      <input name="name"  value="{{name}}" placeholder="请输入姓名" />
+    </view>
+    <view class="form-item">
+      <input name="phone" type="number" placeholder="请输入手机号" />
+    </view>
+    <view class="form-item">
+      <textarea name="message" placeholder="请输入留言信息" auto-height></textarea>
+    </view>
+    <button formType="submit" class="form-btn">提交</button>
+    <button formType="reset" class="form-btn">重置</button>
+  </form>
+</view>

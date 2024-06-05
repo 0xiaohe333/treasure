@@ -1,0 +1,45 @@
+<view class="container">
+  <!-- 表单部分 -->
+  <view class="form-group">
+  <picker mode="selector" range="{{majors}}" value="{{selectedMajorIndex}}" bindchange="bindMajorChange">
+      <view class="picker">
+        选择专业：{{majors[selectedMajorIndex]}}
+      </view>
+    </picker>
+  </view>
+  <view class="form-group">
+    <input type="text" class="input-field" value="{{name}}" placeholder="请输入名字" bindinput="bindNameInput" />
+  </view>
+  <button class="btn-search" bindtap="searchStudents">查询</button>
+  </view>
+  <view class="container">
+
+
+<!-- 表头 -->
+    <view class="table-header">
+   <view>未分组学生数量: {{ungroupedCount}}</view>
+
+    <checkbox bindchange="checkAll" checked="{{allChecked}}">全选/全不选</checkbox>  
+    <view class="table-cell">学号</view>
+    <view class="table-cell">姓名</view>
+    <view classa="table-cell">专业</view>
+  </view>
+
+<!-- 表身学生列表部分 -->
+  <view class="table-body">
+  <view wx:if="{{ungroupedStudents.length > 0}}">
+<view class="table-row">
+<checkbox-group bindchange="checkboxChange">
+<label wx:for="{{checkboxes}}" wx:key="index">
+ <checkbox  value="{{item.id}}"  checked="{{item.checked}}"/>
+  {{item.id}}
+</label>
+   <view class="table-cell">{{item.name}}</view>
+   <view class="table-cell">{{item.occupation}}</view>
+  </checkbox-group>
+  </view>
+  </view>
+  <view wx:else class="no-result">没有找到符合条件的学生</view>
+</view>
+  <button bindtap="groupStudents">分组</button>
+</view>

@@ -1,0 +1,82 @@
+page{
+
+  background-color: rgb(197, 207, 193);
+}
+.form{
+  width: 100%;
+  background-color: rgb(159, 197, 121);
+  margin-top: 200rpx;
+  margin: auto;
+  position: relative;
+  border-radius: 60rpx;
+}
+.role{
+  width: 300rpx;
+  height: 300rpx;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20%;
+  margin: auto;
+}
+.role image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.inputs{
+  margin: 180rpx auto 30rpx;
+}
+.item{
+  width: 80%;
+  height: 100rpx;
+  background-color: rgb(186, 199, 127);
+  border-radius: 70rpx;
+  padding: 20rpx 30rpx;
+  max-width: 30rpx auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.item input{
+  flex: 1;
+  height: 80rpx;
+  border:2px solid rgb(210, 123, 218);
+  border-radius: 40rpx;
+}
+.title{
+  padding-right: 30rpx
+}
+.kongbai{
+  width: 80%;
+  height: 170rpx;
+  display: flex;
+}
+.kongbai1{
+  width: 80%;
+  height: 10rpx;
+  max-width: 30rpx auto;
+  display: flex;
+}
+.title1{
+  width: 90%;
+  height: 100rpx;
+  background-color: rgb(48, 201, 228);
+  margin: auto;
+  left: 10%;
+  border-radius: 50rpx;
+}
+.title2{
+  width: 90%;
+  height: 100rpx;
+  background-color: rgb(48, 201, 228);
+  margin: auto;
+  left: 10%;
+  border-radius: 50rpx;
+}
+.text1{
+  font-size: 50rpx;
+  color: blueviolet;
+}

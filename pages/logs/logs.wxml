@@ -1,0 +1,70 @@
+<!--logs.wxml-->
+<view>
+    <view class="v1">
+        <span class="intro">个人简历</span>
+        <navigator path="/pages/denglu/denglu">
+      <button class="button" bind:tap="denglu">修改简介</button>
+    </navigator>
+    </view>
+</view>
+<view class="page1">
+    <view class="page2">
+        <view class="page3">
+            <text>基本信息</text>
+        </view>
+        <view class="page4">
+            <text>姓名：</text>
+        </view>
+        <view class="page4">
+            <text>出生年月：</text>
+        </view>
+        <view class="page4">
+            <text>民族：</text>
+        </view>
+        <view class="page4">
+            <text>身高：</text>
+        </view><view class="page4">
+            <text>电话：</text>
+        </view>
+        <view class="page4">
+            <text>政治面貌：</text>
+        </view>
+        <view class="page4">
+            <text>邮箱：</text>
+        </view>
+        <view class="page4">
+            <text>毕业院校：</text>
+        </view>
+        <view class="page4">
+            <text>住址：</text>
+        </view>
+        <view class="page4">
+            <text>学历：</text>
+        </view>
+    </view>
+    <view class="page2">
+        <view class="page3">
+            <text>教育背景</text>
+        </view>
+    </view>
+    <view class="page2">
+        <view class="page3">
+            <text>实习经历</text>
+        </view>
+    </view>
+    <view class="page2">
+        <view class="page3">
+            <text>校园经历</text>
+        </view>
+    </view>
+    <view class="page2">
+        <view class="page3">
+            <text>技能证书</text>
+        </view>
+    </view>
+    <view class="page2">
+        <view class="page3">
+            <text>自我评价</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<view class="background">
+  <view class="form">
+    <view class="role">
+      <image src="/images/my/头像.png.png" mode=""></image>
+    </view>
+    <view class="inputs">
+      <view class="kongbai"><text class="kongbai1"> </text></view>
+      <view class="item">
+        <view class="title">ID：{{user.id}}</view>    
+      </view>
+      <view class="kongbai1"><text class="kongbai"> </text></view>
+      <view class="item">
+        <view class="title">姓名：{{user.name}}</view>
+      </view>
+      <view class="kongbai1"><text class="kongbai"> </text></view>
+      <view class="item">
+        <view class="title">学号：{{user.number}}</view>
+      </view>
+      <view class="kongbai1"><text class="kongbai"> </text></view>
+      <view class="item">
+        <view class="title">电话：{{user.phone}}</view>
+      </view>
+      <view class="kongbai1"><text class="kongbai"> </text></view>
+      <view class="kongbai">
+      <navigator path="/pages/denglu/denglu">
+      <button class="title2" bind:tap="denglu"><text class="text1">修改信息</text></button>
+    </navigator>
+      </view>
+    </view>  
+  </view>
+</view>

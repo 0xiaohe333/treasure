@@ -1,0 +1,20 @@
+<view class="background">
+  <view class="form">
+
+    <view class="inputs">
+      <view class="kongbai"><text class="kongbai1"> </text></view>
+      <view class="item">
+        <view class="title">账号</view>
+        <input type="text" placeholder-style="placeholder-style" value="" bindinput="account"/>
+      </view>
+      <view class="kongbai1"><text class="kongbai"> </text></view>
+      <view class="item">
+        <view class="title">密码</view>
+        <input type="text" placeholder-style="placeholder-style" value="" bindinput="password"/>
+      </view>
+      <view class="kongbai">
+      <button class="title1" bind:tap="save"><text class="text1">登录</text></button>
+      </view>
+    </view>  
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages": [
+ 
+    "pages/index/index",
+    "pages/more/more",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/denglu/denglu",
+    "pages/表格/表格"
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "重邮就业",
+    "navigationBarBackgroundColor": "#007A53",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/app/首页-置灰 (1).png",
+      "selectedIconPath": "images/app/首页-置灰.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "简历",
+        "iconPath": "images/app/分享 (1).png",
+        "selectedIconPath": "images/app/分享.png"
+        },
+        {
+          "pagePath": "pages/more/more",
+          "text": "更多",
+          "iconPath": "images/app/更多 (1).png",
+          "selectedIconPath": "images/app/更多.png"
+          },
+          {
+            "pagePath": "pages/my/my",
+            "text": "我的",
+            "iconPath": "images/app/用户 (1).png",
+            "selectedIconPath": "images/app/用户.png"
+            }
+    ]
+  }
+}

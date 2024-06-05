@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<swiper indicator-dots autoplay circular easing-function>
+  <swiper-item>
+    <image class="swiper1" src="/images/index/12b0bc219743ba16fdbb922ec13ad7bb.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="swiper1" src="/images/index/9ee90310669278036aef0b56da708d29.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="swiper1" src="/images/index/a79304036586006956ddbdb0f6542498.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="swiper1" src="/images/index/e5fa807f4fce0e18c5e6be3b0d81860b.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="morework">
+  <view class="work"> 
+    <image src="/images/index/会客区.png"></image>
+    <view><text>宣讲会信息</text></view>
+  </view>
+  <view>
+    <image src="/images/index/餐桌.png"></image>
+    <view><text>双选会信息</text></view>
+  </view>
+</view>
+<text class="text1" style="text-align: center;">最新校园招聘信息</text>
+<view class="job1" style="flex-direction:column;">
+  <image class="jobp1" src="/images/index/9ee90310669278036aef0b56da708d28.png"></image>
+  <image class="jobp1" src="/images/index/屏幕截图 2024-05-04 103500.png"></image>
+  <navigator url="/pages/more/more" open-type="switchTab">
+     <text class="text2">点击查看更多信息</text>
+  </navigator>
+</view>

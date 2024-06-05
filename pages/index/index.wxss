@@ -1,0 +1,39 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.swiper1{
+  width: 100%;
+  height: 100%;
+}
+.job1{
+  background-color: aqua;
+  height: 400rpx;
+  width: 100%;
+}
+.jobp1{
+  height: 170rpx;
+  width: 100%;
+}
+.text1{
+  font-size:50rpx;
+}
+.text2{
+  height: 100rpx;
+}
+.morework{
+  display: flex;
+  padding: 0rpx;
+  flex-wrap: wrap;
+}
+.morework image{
+  width: 250rpx;
+  height: 150rpx;
+}
+.work{
+  width: 30%;
+  text-align: center;
+  padding: 0 10rpx;
+}
