@@ -28,6 +28,6 @@
   <image class="jobp1" src="/images/index/9ee90310669278036aef0b56da708d28.png"></image>
   <image class="jobp1" src="/images/index/屏幕截图 2024-05-04 103500.png"></image>
   <navigator url="/pages/more/more" open-type="switchTab">
-     <text class="text2">点击查看更多信息</text>
+     <text class="text2">点击处理学生信息</text>
   </navigator>
 </view>

@@ -1,5 +1,6 @@
 Page({
   data: {
+    currentContent: 'contentB', // 初始显示内容B
     majors: ['计算机科学', '数学', '物理', '化学'], // 专业列表
     selectedMajorIndex: 0, // 默认选中第一个专业
     name: '', // 输入的学生名字
@@ -18,11 +19,16 @@ Page({
       {id:1,name:'he',occupation:'学生'},
       {id:2,name:'xiao',occupation:'销售'},
       {id:3,name:'ya',occupation:'老师'}
-    ],
+    ],//未分组的学生数组加一个checked属性
     selectedStudents:[],
     groupedStudents: [] // 分组后的学生列表
   },
 
+  switchContent(e) {
+    this.setData({
+      currentContent: e.currentTarget.dataset.content // 根据点击的按钮更新当前显示的内容
+    });
+  },
   // 专业选择变化时触发
   bindMajorChange: function(e) {
     this.setData({

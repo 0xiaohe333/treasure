@@ -2,6 +2,7 @@ page{
 
   background-color: rgb(197, 207, 193);
 }
+
 .form{
   width: 100%;
   background-color: rgb(159, 197, 121);

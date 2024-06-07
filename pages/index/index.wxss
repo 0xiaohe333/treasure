@@ -9,7 +9,6 @@ page {
   height: 100%;
 }
 .job1{
-  background-color: aqua;
   height: 400rpx;
   width: 100%;
 }
